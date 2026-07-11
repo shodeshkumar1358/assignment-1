@@ -18,23 +18,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   list-style: none;
 }
 .navbar ul a {
   text-decoration: none;
-  color: rgb(51, 51, 51);
+  color: #575757;
   font-size: 16px;
-}
-
-.logo-text {
-  font-size: 18px;
-  color: rgb(29, 29, 44);
+  line-height: 25px;
 }
 .btn {
-  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 16px;
   border: none;
-  background-color: rgb(45, 45, 226);
+  background-color: #1d4ed8;
   color: white;
   border-radius: 5px;
 }
@@ -60,12 +59,16 @@
 .hero h2,
 em {
   color: white;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -3px;
 }
 .hero p {
   color: white;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 5px;
 }
 .hero-btn {
   color: white;
@@ -87,12 +90,13 @@ em {
   padding: 0 80px;
 }
 .speakers {
-  border: 1px solid gray;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
   padding-bottom: 40px;
-  padding-left: 10px;
 }
 .speakers-text {
+  padding-left: 10px;
+  padding-top: 5px;
 }
 .speakers-heading {
   text-align: center;
@@ -108,6 +112,26 @@ em {
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+.Designation{
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.name{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 800;
+  color: #0d1b2a;
+  padding: 2px 0;
+}
+
+.position{
+  font-size: 14px;
+  line-height: 21px;
+  color: #575757;
 }
 /* Meet the speakers section end */
 
@@ -234,29 +258,6 @@ em {
   justify-content: center;
 }
 
-/* footer section start */
-.footer-section {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0d1b2a;
-  padding: 0 120px;
-}
-.footer-content p {
-  color: #888888;
-}
-.footer-nav {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  gap: 20px;
-  color: #888888;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 /* 
 faq section */
 
@@ -334,4 +335,27 @@ faq section */
 .faq-item:hover {
   background-color: #253248;
   transition: 0.3s;
+}
+
+/* footer section start */
+.footer-section {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1b2a;
+  padding: 0 120px;
+}
+.footer-content p {
+  color: #888888;
+}
+.footer-nav {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+  color: #888888;
+  font-size: 16px;
+  line-height: 20px;
 }
